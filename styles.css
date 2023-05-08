@@ -14,7 +14,7 @@ header nav {
 }
 
 .hero {
-    background-image: url('path/to/your/hero-image.jpg');
+    background-image: url(https://0xbleezy.github.io/oldp/smalldog.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
