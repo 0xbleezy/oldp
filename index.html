@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="An engaging and accessible website for email subscriptions">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+		<title>LOREM IPSUM</title>
+	</head>
+	<body>
+		<div class="content-container">
+			<div class="top-bar">
+				<h1 class="coming-soon">coming soon</h1>
+				<div id="timer" class="countdown-timer" role="timer" aria-label="Countdown timer"></div>
+			</div>
+			<div class="video-container">
+				<video autoplay muted loop playsinline>
+					<source src="https://0xbleezy.github.io/loremipsum/video.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			<div class="bottom-bar">
+				<form class="email-form" id="email-form">
+					<input type="email" id="email-input" placeholder="  Enter your email" required aria-required="true" aria-label="Enter your email">
+					<button type="button" onclick="submitForm()" class="subscribe-btn">Subscribe</button>
+				</form>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
